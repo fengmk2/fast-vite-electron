@@ -1,5 +1,5 @@
+import { expect, it, vi } from '@voidzero-dev/vite-plus/test'
 import { mount } from '@vue/test-utils'
-import { expect, it, vi } from 'vitest'
 import HelloWorld from '../components/HelloWorld.vue'
 
 vi.mock('../api', () => ({
