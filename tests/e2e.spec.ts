@@ -1,6 +1,6 @@
 import type { ElectronApplication } from 'playwright'
+import { afterAll, beforeAll, expect, it } from '@voidzero-dev/vite-plus/test'
 import { _electron as electron } from 'playwright'
-import { afterAll, beforeAll, expect, it } from 'vitest'
 
 let electronApp: ElectronApplication
 
